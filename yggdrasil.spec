@@ -2,9 +2,6 @@
 
 # https://github.com/redhatinsights/yggdrasil
 %global goipath         github.com/redhatinsights/yggdrasil
-Version:                0.3.2
-#%global tag             %{version}
-
 %gometa -f
 
 %global common_description %{expand:
@@ -16,6 +13,7 @@ exchanging data with its worker processes through a D-Bus message broker.}
 %global godocs          CONTRIBUTING.md README.md
 
 Name:           yggdrasil
+Version:        0.3.2
 Release:        1%{?dist}
 Summary:        Remote data transmission and processing client
 
