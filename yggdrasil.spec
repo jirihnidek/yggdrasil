@@ -3,7 +3,7 @@
 # https://github.com/redhatinsights/yggdrasil
 %global goipath         github.com/redhatinsights/yggdrasil
 Version:                0.3.2
-%global tag             0.3.1
+%global tag             %{version}
 
 %gometa -f
 
@@ -21,7 +21,7 @@ Summary:        Remote data transmission and processing client
 
 License:        GPL-3.0-only
 URL:            %{gourl}
-Source0:        %{name}-%{version}-%{release}.tar.gz
+Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  systemd-rpm-macros
 BuildRequires:  meson
